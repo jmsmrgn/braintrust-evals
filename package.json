@@ -1,0 +1,22 @@
+{
+  "name": "braintrust-evals",
+  "version": "1.0.0",
+  "description": "Customer support response evaluator using Braintrust SDK and LLM-as-judge scoring",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "start": "ts-node src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "braintrust": "^0.0.182",
+    "cli-table3": "^0.6.5",
+    "dotenv": "^16.4.5",
+    "openai": "^4.77.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
